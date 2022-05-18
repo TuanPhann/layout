@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html   {
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+ }
+/* bắt đầu header */
+
+.header_top {
+    background-color: #1abc9c;
+    height: 300px; 
+}
+
+.header_title-top {
+    text-align: center;
+    color: #fff;
+}
+
+.header_one {
+    padding-top: 110px;
+}
+
+.header_one h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.header_link {
+    background-color: #333;
+    
+}
+
+.header_link-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.header_link-one ul {
+    list-style: none;
+}
+
+.header_link-one ul li {
+    float: left;
+    margin-top: 13px;
+    
+}
+
+.header_link-one ul li a {
+    padding: 13px 26px;
+}
+.header_link-one a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.header_link-one a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16   px;
+}
+
+.header_two-right  {
+   margin-top: 13px;
+   margin-bottom: 12px;
+}
+
+.header_two-right a {
+    padding: 13px 26px;
+}
+/*kết thúc phần header*/
+/* bắt đàu phần main*/
+.main_total {
+    display: flex;
+}
+/* main left*/
+.main_left {
+    
+    background-color: #f1f1f1;
+    width: 34%;
+}
+
+.main_left-top-bottom {
+    padding: 40px 26px 0 26px;
+}
+
+.main_left-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.main_left-text {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main_left-img {
+    height: 200px;
+    background-color: #aaa;
+    margin-bottom: 18px;
+}
+
+.main_left-img p {
+    padding: 25px 0 0 26px;
+}
+
+
+.main_left-three-img {
+    height: 50px;
+    background-color: #aaa;
+    margin-top: 20px;
+}
+
+.main_left-three-img p {
+    padding: 18px 0 0 26px;
+}
+/*close main left*/
+/*main right*/
+
+.main_right {
+    width: 66%;
+}
+
+.main_right-sub {
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+/*close main right*/
+/* footer*/
+.footer_total {
+    height: 120px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 120px;
+}
+/*close footer*/
